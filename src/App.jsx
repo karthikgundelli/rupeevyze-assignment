@@ -1,0 +1,23 @@
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import Features from "./components/Features";
+import Payments from "./components/Payments";
+import Security from "./components/Security";
+import CTA from "./components/CTA";
+import Footer from "./components/Footer";
+
+function App() {
+  return (
+    <>
+      <Navbar />
+      <Hero />
+      <Features />
+      <Payments />
+      <Security />
+      <CTA />
+      <Footer />
+    </>
+  );
+}
+
+export default App;
